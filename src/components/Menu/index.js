@@ -11,7 +11,7 @@ function Menu(){
                 <img className="Logo" src={Logo} alt="Fornite Play Logo"/>
             </a>
 
-            <Button as="a" href="/">
+            <Button as="a" className="ButtonLink" href="/">
                 Novo Video
             </Button>
         </nav>
