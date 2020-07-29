@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from '../../assets/img/Logo.png';
 import { FooterBase } from './styles';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+      <a href="/">
+        <img className="Logo" src={Logo} alt="Logo Fortnite Play" />
       </a>
       <p>
         Orgulhosamente criado durante a
@@ -13,6 +14,8 @@ function Footer() {
         <a href="https://www.alura.com.br/">
           Imersão React da Alura
         </a>
+        <br/><br/>
+        Luiz Fernando de Souza
       </p>
     </FooterBase>
   );
